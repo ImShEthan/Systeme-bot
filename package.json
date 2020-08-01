@@ -1,0 +1,18 @@
+{
+  "name": "systeme-bot",
+  "version": "1.0.0",
+  "description": "A simple discord bot for showing your system information",
+  "main": "systeminfootaka.js",
+  "dependencies": {
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.2.0",
+    "os": "^0.1.1",
+    "systeminformation": "^4.26.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan.",
+  "license": "ISC"
+}
