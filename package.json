@@ -7,7 +7,7 @@
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.2.0",
     "os": "^0.1.1",
-    "systeminformation": "^4.26.10"
+    "systeminformation": "^4.27.11"
   },
   "devDependencies": {},
   "scripts": {
