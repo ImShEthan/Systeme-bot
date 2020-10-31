@@ -46,7 +46,7 @@ if(message.content === ".systeme") {
 
      const msg = await message.channel.send('Génération...');
      message.channel.startTyping();
-     let ping = Math.round(client.ping);
+     let ping = Math.round(client.ws.ping);
      const memory = await si.mem();
      const totalMemory = Math.floor(memory.total / 1024 / 1024);
      const swapMem = Math.floor(memory.swapused / 1024 / 1024);
